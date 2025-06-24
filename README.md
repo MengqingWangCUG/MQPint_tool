@@ -1,22 +1,11 @@
 # MQPint_tool
 
-MQPint_tool is a custom-built Python toolkit developed by Mengqing Wang for processing, calculating, and visualizing paleointensity data obtained from double-heating (Thellier-type) experiments. The tool is designed to streamline the workflow of paleointensity experiments and improve efficiency and reproducibility in data analysis.
+MQPint_tool is a self-developed Python script by Mengqing Wang, designed for use in conjunction with pmagpy to process, calculate, and visualize paleomagnetic directional and paleointensity data . The tool aims to improve the efficiency of data analysis in paleomagnetic studies.
 
 Key features include:
 
-Importing, filtering, and visualizing paleointensity data from Thellier-type experiments;
+Generating standard plots such as Arai plots, Zijderveld diagrams, and pTRM-check results;
 
-Computation of paleointensity estimates using various selection criteria and fitting methods;
+Built-in support for the RESET  method to enable reliable visualization and computation of paleointensity results.
 
-Graphical outputs such as Arai plots, Zijderveld diagrams, and pTRM-check results;
-
-Built-in support for the RESET (REpeated Stepwise Thellier) method, enabling reliable calculation and visualization of paleointensity results based on this advanced technique.
-
-MQPint_tool is intended for researchers working in paleomagnetism who require a flexible and efficient tool for analyzing and plotting Thellier-type and RESET paleointensity data.
-
-Zijderveld plots are among the most commonly used diagrams in paleomagnetism. However, generating visually appealing Zijderveld plots can be challenging due to the need for coordinate transformations that are specific to the data. This project offers a solution by providing a Python implementation that simplifies the process of creating these plots.
-
-
-
-A good Zijderveld plot should have the following characteristics: first, the scale length of the coordinate axes should correspond to the length of both the positive and negative axes.
-The repository is under development.
+Note: This tool is intended for personal research use and is still under active development. It requires integration with pmagpy for full functionality.
