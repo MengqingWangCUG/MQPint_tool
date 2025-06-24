@@ -4,7 +4,7 @@ MQPint_tool is a self-developed Python script by Mengqing Wang, designed for use
 
 Key features include:
 
-Generating standard plots such as Arai plots, Zijderveld diagrams, and pTRM-check results;
+Generating standard plots such as Arai plots, Zijderveld diagrams, and Equal area plot;
 
 Built-in support for the RESET  method to enable reliable visualization and computation of paleointensity results.
 
